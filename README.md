@@ -4,7 +4,7 @@ Shell script to install or update [EXPI Masternode](https://expi.tech) on a Linu
 
 ## VPS installation
 ```
-wget -N https://raw.githubusercontent.com/expicoin/expimn/master/expi.autoinstall.sh
+wget -q https://raw.githubusercontent.com/expicoin/expimn/master/expi.autoinstall.sh
 bash expi.autoinstall.sh
 ```
 ***
