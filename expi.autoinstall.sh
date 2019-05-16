@@ -56,7 +56,7 @@ fi
 genkey=$1
 clear
 
-echo -e "${GREEN} ------- EXPi MASTERNODE INSTALLER v1.0.0--------+
+echo -e "${GREEN} ------- EXPi MASTERNODE INSTALLER v1.0.1--------+
  |                                                  |
  |                                                  |::
  |       The installation will install and run      |::
@@ -184,8 +184,8 @@ fi
 #Installing Daemon
 cd ~
 rm -rf /usr/local/bin/expi*
-wget https://github.com/expicoin/expicore/releases/download/v1.0.0/expi-linux-daemon-1.0.0.tgz
-tar -xvf expi-linux-daemon-1.0.0.tgz
+wget https://github.com/expicoin/expicore/releases/download/v1.0.1/expi-linux-daemon-1.0.1.tgz
+tar -xvf expi-linux-daemon-1.0.1.tgz
 sudo chmod -R 755 expi-cli
 sudo chmod -R 755 expid
 cp -p -r expid /usr/local/bin
