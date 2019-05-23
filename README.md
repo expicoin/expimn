@@ -45,7 +45,7 @@ expi-cli masternode status
 ## Usage:
 ```
 expi-cli masternode status #To check your MN status
-expi-cli getinfo #To get general info such as Fline version and current block numnber
+expi-cli getinfo #To get general info such as EXPI version and current block numnber
 expi-cli mnsync status #To check if your MN is synced.
 ```
 Also, if you want to check/start/stop **EXPI**, run one of the following commands as **root**:
@@ -54,6 +54,6 @@ Also, if you want to check/start/stop **EXPI**, run one of the following command
 systemctl status EXPI #To check if EXPI service is running
 systemctl start EXPI #To start EXPI service
 systemctl stop EXPI #To stop EXPI service
-systemctl is-enabled EXPI #To check if Fline service is enabled on boot
+systemctl is-enabled EXPI #To check if EXPI service is enabled on boot
 ```
 ***
